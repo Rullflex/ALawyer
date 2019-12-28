@@ -1,0 +1,263 @@
+@media screen and (max-width: 1150px){
+	.header__img{
+		right: 0px;
+		height: 280px;
+	}
+	.container{
+		width: 90%;
+	}
+	.services{
+		justify-content: space-around;
+	}
+	.why-us__item-wrap{
+		justify-content: center;
+	}
+	.why-us__item-2{
+		margin-left: 20px;
+	}
+	.deals__item-wrap{
+		justify-content: space-around;
+	}
+	.contact-us__map-wrap{
+		display: none;
+	}
+}
+@media screen and (max-width: 1024px){
+	.contact-us__inf{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 960px){
+	.upper-wrap__nav-menu{
+		display: none;
+	}
+	.upper-wrap .common-btn{
+		position: absolute;
+		right: 0;
+	}
+	.header__img{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px){
+	.header__text{
+		width: 100%;
+	}
+	.scroll-up{
+		display: none;
+	}
+	footer .logo{
+		display: none;
+	}
+	.footer__wrap{
+		display: block;
+		height: 80px;
+	}
+	.footer__wrap__ID{
+		margin-top: 30px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 600px){
+	.upper-wrap .common-btn{
+		position: relative;
+	}
+	.upper-wrap{
+		height: inherit;
+		justify-content: center;
+		flex-flow: column;
+	}
+	.upper-wrap > div{
+		margin-top: 25px;
+	}
+}
+@media screen and (max-width: 455px){
+	.void-box:after{
+		height: 50px;
+	}
+	.common-btn{
+		width: 130px;
+		height: 30px;
+	}
+    /*********
+    FONT SIZES
+    *********/
+	html {
+		font-size: 0.8em; /*1em*/
+	}	
+
+	h2 {font-size: 2.5rem;}
+
+	h3 {font-size: 1.8rem;}
+
+	h4 {font-size: 1.114rem;}
+
+	.logo__a span{
+		font-size: 9px;/*18px*/
+	}
+	.services__item_bg-1:after{
+		font-size: 1.6rem;/*1.813rem*/
+	}
+	.services__item_bg-2:after{
+		font-size: 1.6rem;/*1.813rem*/
+	}
+	.services__item_bg-3:after{
+		font-size: 1.6rem;/*1.813rem*/
+	}
+	.our-team span{
+		font-size: 12px;/*24px*/
+	}
+	.number{
+		font-size: 21px;/*42px*/
+	}
+	.adress{
+		font-size: 12px;/*24px*/
+	}
+	.form__name, .form__phone-number, .form__text-area{
+		font-size: 10px;/*20px*/
+	}
+/*********
+
+*********/
+	.header__ask-question_btn{
+		width: 177px;
+		height: 37px;
+		margin: 0 auto;
+	}
+	/*
+	.upper-wrap__hamburger{
+		width: 30px;
+		position: absolute;
+		right: 20px;
+		top: 57px;
+		cursor: pointer;
+	}
+	.upper-wrap__hamburger div{
+		background: #000;
+		height: 2px;
+		margin-bottom: 6px;
+		width: 100%;
+	}
+	*/
+	.header__text {
+		text-align: center;
+	}
+	.header__icon-plus-text h5{
+		width: initial;
+	}
+	.upper-wrap{
+		display: none;
+	}
+	.logo{
+		width: 145px;
+		height: 33px;
+	}
+	.logo__img{
+		height: 33px;
+	}
+	.header__text{
+		padding-top: 63px;
+	}
+	.header__text h3{
+		margin-top: 0px;
+	}
+	.services{
+		margin: 0 auto;
+	}
+	.services__item{
+	width: 240px;/*320px*/
+	height: 350px;/*500px*/
+	}
+	.services__item > h5{
+		text-align: left;
+		width: 90%;	
+		margin-left: 5%;
+		margin-top: 3%;
+	}
+	.our-team h2{
+		margin-top: 40px;
+	}
+	.our-team__wrap{
+		margin: 40px 0;
+	}
+	.item__bg-img{
+		width: 100px;
+		height: 100px;
+	}
+	.deals h2{
+		margin-top: 0px;
+		padding-top: 50px; 
+		padding-bottom: 35px;
+	}
+	.deals__item-wrap{
+		justify-content: space-around;
+	}
+	.deals__item{
+		width: 183px;
+	}
+	.deals__item img{
+		box-shadow: 0px 4px 15px -9px;
+		width: 100%;
+		height: 261px;
+	}
+	.contact-us__icons{
+		width: 100%;
+	}
+	.form__name, .form__phone-number, .form__submit{
+		width: 250px;
+		margin-top: 20px;
+	}
+	.form__name, .form__phone-number, .form__text-area{
+		padding: 0 20px;
+	}
+	.form__text-area{
+		width: 250px;
+		margin-top: 20px;
+		height: 130px;
+		padding-top: 10px;
+	}
+	.form__name, .form__phone-number{
+		height: 30px;
+	}
+	.form__submit{
+		position: relative;
+		height: 45px;
+		margin-top: 20px;
+	}
+	.pre-map-clearfix{
+		height: 0;
+	}
+	/**********
+	HIDDEN MENU
+	**********/
+	/*
+	.hidden-menu{
+		position: fixed;
+		z-index: 2;
+		width: 100%;
+		height: 40px;
+		background: #fff;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+	}
+	.hidden-menu__hamburger{
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 11px;
+		top: 11px;
+		cursor: pointer;
+	}
+	.hidden-menu__hamburger div{
+		background: #000;
+		height: 2px;
+		margin-bottom: 6px;
+		width: 100%;
+	}
+	*/
+}
+@media screen and (max-width: 400px){
+	h2 {font-size: 2.1rem;}
+
+	h3 {font-size: 1.6rem;}
+}
